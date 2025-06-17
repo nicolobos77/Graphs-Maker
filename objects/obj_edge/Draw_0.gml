@@ -1,0 +1,32 @@
+if(!dir)
+{
+	draw_line_color(xs,ys,xe,ye,c_white,c_white);
+}
+else
+{
+	if(displace)
+	{
+		draw_set_color(c_orange);
+		draw_arrow(xs,ys,xe,ye,16);
+	}
+	else
+	{
+		draw_set_color(c_aqua);
+		draw_arrow(xs,ys,xe,ye,16);
+	}
+}
+if(heavy)
+{
+	draw_set_halign(fa_center);
+	draw_set_valign(fa_middle);
+	draw_rectangle_color(x - width, y - height, x + width, y + height, c_dkgray,c_dkgray,c_dkgray,c_dkgray,0);
+	if(displace)
+	{
+		draw_set_color(c_orange);
+	}
+	else
+	{
+		draw_set_color(c_aqua);
+	}
+	draw_text(x,y,string(weight));
+}

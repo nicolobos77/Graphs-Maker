@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"graph_find_edge",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"graph_find_edge",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
